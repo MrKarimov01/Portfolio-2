@@ -9,12 +9,9 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+
+
+
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -61,19 +58,19 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Muhammadusmon',
+    description: `Ro'zimuhammad`,
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Odashev',
+    description: 'Karimov',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '20 Years',
+    description: '16 Years',
   },
 
   {
@@ -97,25 +94,25 @@ export const personalInfo = [
   {
     id: 7,
     title: 'Phone : ',
-    description: '+998911203322',
+    description: '+998982709877',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'muhammad1usmon@gmail.com',
+    description: 'Rozimuhammadkarimov6002@gmail.com',
   },
 
   {
     id: 9,
     title: 'Telegram : ',
-    description: '@KEYZER_1',
+    description: '@Fakey_Soul',
   },
 
   {
     id: 10,
     title: 'Langages : ',
-    description: 'Turkish ,  English',
+    description: 'Japanese ,  English',
   },
 ];
 
@@ -128,7 +125,7 @@ export const stats = [
 
   {
     id: 2,
-    no: '8+',
+    no: '12+',
     title: 'Completed <br /> Projects',
   },
 
@@ -140,7 +137,7 @@ export const stats = [
 
   {
     id: 4,
-    no: '2+',
+    no: '4+',
     title: ' Awards <br /> Won',
   },
 ];
@@ -169,34 +166,57 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '100',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '95',
   },
 
   {
     id: 3,
     title: 'Css',
-    percentage: '70',
+    percentage: '100',
   },
   
   {
     id: 8,
     title: 'React',
-    percentage: '45',
+    percentage: '68',
   },
 ];
 
 export const portfolio = [
   {
     id: 1,
-    img: Work1,
-    title: 'Figma',
+    img: "https://i.pinimg.com/564x/90/3d/38/903d382429c82408a28104a8dedc3bdd.jpg",
+    title: 'Home-Shop',
+    
+    img_url : "https://home-shop-three.vercel.app/",
     details: [
+      
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Figma',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React JS',
+      },
+    ],
+  },
+  {
+    id: 2,
+    img: "https://i.pinimg.com/564x/de/36/6a/de366a1ed765b02547776950d8157690.jpg",
+    title: 'Portfolio-1',
+    
+    img_url : "https://portfolio-rsae.vercel.app/",
+    details: [
+      
       {
         icon: <FiFileText />,
         title: 'Project : ',
@@ -211,14 +231,17 @@ export const portfolio = [
   },
 
   {
-    id: 2,
-    img: Work2,
-    title: 'Log in Page ',
+    id: 3,
+    img: "https://i.pinimg.com/originals/00/16/68/0016684c2b8e772405d8bac8ab8d3950.jpg",
+    title: 'Login-page-1',
+    
+    img_url : "https://registionpage.vercel.app/",
     details: [
+      
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Log in Page ',
+        desc: 'Figma',
       },
       {
         icon: <FaCode />,
@@ -227,21 +250,83 @@ export const portfolio = [
       },
     ],
   },
-
   {
-    id: 3,
-    img: Work3,
-    title: 'Video Editing',
+    id: 4,
+    img: "https://i.pinimg.com/originals/eb/12/fc/eb12fc345906b1a3cef9c39fe4732da9.jpg",
+    title: 'Dish-Shop-1',
+    
+    img_url : "https://dish-shop.vercel.app/",
     details: [
+      
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Figma',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React',
+        desc: 'React JS',
+      },
+    ],
+  },
+  {
+    id: 5,
+    img: "https://i.pinimg.com/originals/51/14/3c/51143c14b33fe1e60e05178610393cb0.jpg",
+    title: 'Dish-Shop-1',
+    
+    img_url : "https://conveter.vercel.app/",
+    details: [
+      
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Figma',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React JS',
+      },
+    ],
+  },
+  {
+    id: 6,
+    img: "https://i.pinimg.com/originals/29/30/96/29309648353a7df8d63da769f1f48897.jpg",
+    title: 'Login-page-2',
+    
+    img_url : "https://astonishing-sprite-30ff9c.netlify.app/",
+    details: [
+      
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Figma',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React JS',
+      },
+    ],
+  },
+  {
+    id: 7,
+    img: "https://i.pinimg.com/originals/10/23/f3/1023f384facc8605706fd67460ac833f.jpg",
+    title: 'Css-page-2',
+    
+    img_url : "https://project-13-rho.vercel.app/",
+    details: [
+      
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Figma',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React JS',
       },
     ],
   },

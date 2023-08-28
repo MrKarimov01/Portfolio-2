@@ -36,7 +36,7 @@ const Contact = () => {
 
               <div>
                 <span className='info__title'>Mail me</span>
-                <h4 className='info__desc'>muhammad1usmon@gmail.com</h4>
+                <h4 className='info__desc'>RozimuhammadKarimov6002@gmail.com</h4>
               </div>
             </div>
 
@@ -45,7 +45,7 @@ const Contact = () => {
 
               <div>
                 <span className='info__title'>Call me</span>
-                <h4 className='info__desc'>+998911203322</h4>
+                <h4 className='info__desc'>+998982709877</h4>
               </div>
             </div>
           </div>
@@ -76,11 +76,13 @@ const Contact = () => {
                 type='text'
                 placeholder='Your Name'
                 className='form__control'
+                required
               />
             </div>
 
             <div className='form__input-div'>
               <input
+              required
                 type='email'
                 placeholder='Your Email'
                 className='form__control'
@@ -89,6 +91,7 @@ const Contact = () => {
 
             <div className='form__input-div'>
               <input
+              required
                 type='text'
                 placeholder='Your Subject'
                 className='form__control'
@@ -98,6 +101,7 @@ const Contact = () => {
 
           <div className='form__input-div'>
             <textarea
+            required
               placeholder='Your Message'
               className='form__control textarea'
             ></textarea>

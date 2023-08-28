@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from '../../assets/home.jpg';
+
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import "./home.css"
@@ -7,12 +7,12 @@ import "./home.css"
 const Home = () => {
   return (
     <section className='home section grid'>
-      <img src={Profile} alt='' className='home__img' />
+      <img src="https://i.pinimg.com/564x/3a/61/b6/3a61b645c13f69e3b9729ccd22097f40.jpg" alt='' className='home__img' />
 
       <div className='home__content'>
         <div className='home__data'>
           <h1 className='home__title'>
-            <span>I'm Muhammadusmon</span> Web Developer
+            <span>I'm Ro'zimuhammad</span> Web Developer
           </h1>
 
           <p className='home__description'>
