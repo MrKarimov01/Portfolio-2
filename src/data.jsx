@@ -330,6 +330,27 @@ export const portfolio = [
       },
     ],
   },
+  ,
+  {
+    id: 8,
+    img: "https://i.pinimg.com/564x/e7/21/72/e72172a8d14af80f51288e72ad3732b7.jpg",
+    title: 'Animes Online.',
+    
+    img_url : "https://animes-online-phi.vercel.app/",
+    details: [
+      
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Figma',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React JS',
+      },
+    ],
+  }
 
 ];
 export const themes = [
