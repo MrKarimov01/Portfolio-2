@@ -266,7 +266,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'Html,Css,Js',
       },
     ],
   },
@@ -306,7 +306,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'Html,Css,Js',
       },
     ],
   },
@@ -326,7 +326,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'Html,Css,Js',
       },
     ],
   },
