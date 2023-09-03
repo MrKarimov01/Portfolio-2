@@ -7,7 +7,7 @@ import "./home.css"
 const Home = () => {
   return (
     <section className='home section grid'>
-      <img src="https://i.pinimg.com/564x/3a/61/b6/3a61b645c13f69e3b9729ccd22097f40.jpg" alt='' className='home__img' />
+      <img src="https://kartinkin.net/pics/uploads/posts/2022-07/1656714529_54-kartinkin-net-p-kot-v-delovom-kostyume-art-krasivo-63.jpg" alt='' className='home__img' />
 
       <div className='home__content'>
         <div className='home__data'>
