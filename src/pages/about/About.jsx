@@ -9,6 +9,7 @@ import ResumeItem from '../../components/ResumeItem';
 import './about.css';
 
 const About = () => {
+  document.title= "Portfolio Website - About me"
   return (
     <main className='section container'>
       <section className='about'>

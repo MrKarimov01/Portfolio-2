@@ -70,7 +70,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '16 Years',
+    description: '17 Years',
   },
 
   {
@@ -100,7 +100,7 @@ export const personalInfo = [
   {
     id: 8,
     title: 'Email : ',
-    description: 'tungiboriar094@gmail.com',
+    description: 'karimovdev01@gmail.com',
   },
 
   {
@@ -273,7 +273,7 @@ export const portfolio = [
   {
     id: 5,
     img: "https://i.pinimg.com/originals/51/14/3c/51143c14b33fe1e60e05178610393cb0.jpg",
-    title: 'Dish-Shop-1',
+    title: 'Convetor-1',
     
     img_url : "https://conveter.vercel.app/",
     details: [

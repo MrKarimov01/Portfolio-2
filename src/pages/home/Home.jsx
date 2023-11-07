@@ -5,6 +5,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import "./home.css"
 
 const Home = () => {
+  document.title= "Portfolio Website - Home"
   return (
     <section className='home section grid'>
       <img src="https://kartinkin.net/pics/uploads/posts/2022-07/1656714529_54-kartinkin-net-p-kot-v-delovom-kostyume-art-krasivo-63.jpg" alt='' className='home__img' />

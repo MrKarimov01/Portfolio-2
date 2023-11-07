@@ -4,6 +4,7 @@ import PortfolioItem from '../../components/PortfolioItem';
 import "./portfolio.css"
 
 const Portfolio = () => {
+  document.title= "Portfolio Website - Portfolio"
   return (
     <section className='portfolio section'>
       <h2 className='section__title'>
