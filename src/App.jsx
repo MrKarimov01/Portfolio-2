@@ -11,7 +11,7 @@ import Contact from './pages/contact/Contact';
 import DisableDevtool from 'disable-devtool';
 import { init } from 'console-ban'
 
-// DisableDevtool();
+DisableDevtool();
 // const div = document.createElement('div')
 // div.innerHTML = 'Stop'
 
